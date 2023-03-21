@@ -16,7 +16,6 @@ def subs(elements):
 lista = [1, 43, "alow", "low", 3.11, 4.1, [1, 2], [1]]
 print(subs(lista))
 
-
 # def subs(elements):
 #     newlist = []
 #     for item in elements:
