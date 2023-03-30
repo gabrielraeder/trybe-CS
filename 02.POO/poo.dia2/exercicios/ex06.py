@@ -7,25 +7,25 @@ class Imposto(ABC):
         raise NotImplementedError
 
 
-class ISS(Imposto):
+class ImpostoISS(Imposto):
     @classmethod
     def calcular(cls, valor):
         return valor * 0.1
 
 
-class ICMS(Imposto):
+class ImpostoICMS(Imposto):
     @classmethod
     def calcular(cls, valor):
         return valor * 0.06
 
 
-class PIS(Imposto):
+class ImpostoPIS(Imposto):
     @classmethod
     def calcular(cls, valor):
         return valor * 0.0065
 
 
-class COFINS(Imposto):
+class ImpostoCOFINS(Imposto):
     @classmethod
     def calcular(cls, valor):
         return valor * 0.03
@@ -40,7 +40,7 @@ class Orcamento:
 
 
 orcamento = Orcamento(1000)
-print(f"ISS: {orcamento.calcular_imposto(ISS)}")
-print(f"ICMS: {orcamento.calcular_imposto(ICMS)}")
-print(f"PIS: {orcamento.calcular_imposto(PIS)}")
-print(f"COFINS: {orcamento.calcular_imposto(COFINS)}")
+print(f"ISS: {orcamento.calcular_imposto(ImpostoISS)}")
+print(f"ICMS: {orcamento.calcular_imposto(ImpostoICMS)}")
+print(f"PIS: {orcamento.calcular_imposto(ImpostoPIS)}")
+print(f"COFINS: {orcamento.calcular_imposto(ImpostoCOFINS)}")
