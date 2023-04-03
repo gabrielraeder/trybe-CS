@@ -12,9 +12,6 @@ class Perfil:
     def remover_sistema_de_notificacao(self, sistema):
         self.__sistemas_de_notificacao.remove(sistema)
 
-    def test(self):
-        print(self.__sistemas_de_notificacao)
-
     def notificar_todos(self):
         for sistema in self.__sistemas_de_notificacao:
             sistema.notificar()
