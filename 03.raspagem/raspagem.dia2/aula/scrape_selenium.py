@@ -7,8 +7,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 
-# Importa o By
-
 # Setup chrome options
 chrome_options = Options()
 # chrome_options.add_argument("--headless")  # Ensure GUI is off
