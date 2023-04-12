@@ -25,8 +25,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 3: Raspagem de Dados
 
 - [X] 1-1: _Raspagem de Dados_
-- [ ] 1-2: _Outras Ferramentas de Raspagem de Dados_
-- [ ] 1-3: _Dia de Atividade: Crawlers + POO_
+- [X] 1-2: _Outras Ferramentas de Raspagem de Dados_
+- [X] 1-3: _[Dia de Atividade: Crawlers + POO](https://github.com/gabrielraeder/crawler)_
 - [ ] 1-4: _[Projeto - Tech News]()_
 
 ##### Seção 4: Algoritmos
