@@ -13,14 +13,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 1-1: _Aprendendo python_
 - [X] 1-2: _Entrada e saída de dados_
 - [X] 1-3: _Testes_
-- [X] 1-4: _[Projeto -Job Insights]()_
+- [X] 1-4: _[Projeto -Job Insights](https://github.com/gabrielraeder/job-insights)_
 
 ##### Seção 2: Padrões de Projeto
 
 - [X] 1-1: _P.O.O. em Python_
 - [X] 1-2: _Padrões - Iterator, Adapter, Strategy_
 - [X] 1-3: _Padrões - Decorator, Observer, Factory_
-- [X] 1-4: _[Projeto - Relatórios de Estoque]()_
+- [X] 1-4: _[Projeto - Relatórios de Estoque](https://github.com/gabrielraeder/inventory-report)_
 
 ##### Seção 3: Raspagem de Dados
 
