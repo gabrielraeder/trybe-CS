@@ -27,18 +27,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 1-1: _Raspagem de Dados_
 - [X] 1-2: _Outras Ferramentas de Raspagem de Dados_
 - [X] 1-3: _[Dia de Atividade: Crawlers + POO](https://github.com/gabrielraeder/crawler)_
-- [X] 1-4: _[Projeto - Tech News]()_
+- [X] 1-4: _[Projeto - Tech News](https://github.com/gabrielraeder/Python-projects/tree/main/Trybe-python-projects/tech-news)_
 
 ##### Seção 4: Algoritmos
 
 - [X] 1-1: _Complexidade de ALgoritmos_
 - [X] 1-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 1-3: _Algoritmos de ordenação e busca_
-- [ ] 1-4: _[Projeto - Algoritmos]()_
+- [X] 1-3: _Algoritmos de ordenação e busca_
+- [X] 1-4: _[Projeto - Algoritmos]()_
 
 ##### Seção 5: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
-- [ ] 1-1: _Arquitetura de Computadores_
+- [X] 1-1: _Arquitetura de Computadores_
 - [ ] 1-2: _Arquitetura de Reder_
 - [ ] 1-3: _Arrays_
 - [ ] 1-4: _Nó e Listas Encadeadas_
