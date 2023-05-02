@@ -1,0 +1,31 @@
+Redes de computadores
+Você viu que redes de computadores são conjuntos de software e hardware que permitem a comunicação entre diversos
+dispositivos como computadores, celulares e impressoras.
+O tamanho das redes também pode variar bastante.
+Para trafegar uma informação em uma rede, essa informação é dividida em diversos pedaços. 
+Esses pedaços são chamados de pacotes e possuem diversos dados.
+
+Modelo de rede
+Existem diversos protocolos, cada um é responsável por definir as regras para um objetivo específico.
+O modelo ISO/OSI foi lançado com o objetivo de ser um padrão entre os diversos dispositivos de comunicação. 
+Esse modelo divide as redes de computadores em 7 camadas.
+TCP/IP é um conjunto de protocolos de comunicação que aplica os conceitos do modelo ISO/OSI.
+A camada de aplicação contém os protocolos responsáveis por dar significado às informações, 
+sendo a primeira camada passada para a mensagem.
+DNS é usado para atribuir um “nome” a um endereço IP específico.
+A camada de transporte é a camada responsável pela transferência de dados entre diferentes máquinas.
+A camada de rede utiliza o protocolo IP - Internet Protocol, que inclusive dá nome ao modelo.
+A camada Interface realiza a interface do modelo TCP/IP com os diversos modelos de rede
+
+Protocolos seguros
+HTTPS, SSH, TLS e SSL são protocolos projetados para fornecer segurança.
+
+Ataques cibernéticos
+DDoS (Distributed Denial of Service) ou ataque distribuído de negação de serviço, 
+tendo como objetivo tirar o serviço do ar, tornando-o temporariamente indisponível.
+“Brute force” (ou ataque de “força bruta”) tem como objetivo encontrar as combinações corretas
+e acessar indevidamente um sistema, por meio de tentativas com diversas combinações de usuário e senha.
+
+Firewall e Proxy
+Firewalls são responsáveis por impedir ou permitir a passagem de determinados tráfegos em uma rede, seja de entrada ou saída.
+O proxy provém uma camada a mais de controle entre a internet e os dispositivos da rede, e pode ser utilizado para diversos fins.
