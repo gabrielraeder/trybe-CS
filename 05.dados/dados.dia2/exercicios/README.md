@@ -1,4 +1,4 @@
-Exercício 1
+### Exercício 1
 ```sh
 curl localhost:3000  or  curl -X GET localhost:3000
 ```
@@ -16,7 +16,7 @@ curl --request POST \
     localhost:3000
 ```
 
-Exercício 2
+### Exercício 2
 ```sh
 curl google.com
 ```
@@ -24,12 +24,12 @@ curl google.com
 curl -L google.com
 ```
 
-Exercício 3
+### Exercício 3
 ```sh
 wget betrybe.com
 ```
 
-Exercício 5
+### Exercício 5
 ```sh
 telnet 127.0.0.1 8085
 ```
@@ -37,7 +37,7 @@ telnet 127.0.0.1 8085
 
 
 
-Exercício 6
+### Exercício 6
 ```sh
 curl localhost:8085
 ```
@@ -49,17 +49,17 @@ curl --request POST \
     localhost:8085/foo-bar
 ```
 
-Exercício 8
+### Exercício 8
 ```sh
 nc -u 127.0.0.1 8084
 ```
 
-Exercício 9
+### Exercício 9
 ```sh
 curl localhost:8084
 ```
 
-Exercício 10
+### Exercício 10
 ```sh
  mkdir diretorio && cd diretorio
  python3 -m http.server 80
@@ -71,3 +71,12 @@ sudo tar xvzf ./ngrok-v3-stable-linux-amd64.tgz
  ./ngrok http 80
 ```
 
+### Exercício 11
+##### externo
+```sh
+curl ifconfig.me 
+```
+##### interno
+```sh
+ip a
+```
