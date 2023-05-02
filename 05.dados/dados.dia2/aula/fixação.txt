@@ -1,0 +1,39 @@
+# Exercício de fixação 1
+# No modelo ISO/OSI, qual é a responsabilidade de suas camadas?
+RESPOSTA: Nesse modelo, cada camada é responsável pela adição de uma nova funcionalidade
+aos dados vindos de uma camada superior a ela. Assim, os dados que passam por uma camada são
+reempacotados pela camada seguinte e recebem um novo cabeçalho adicional que será interpretado
+pela camada correspondente na outra ponta da comunicação. Por exemplo: o que é escrito pela
+camada de transporte no emissor, será interpretado somente pela camada de transporte 
+no destinatário, e assim sucessivamente.
+
+
+# Exercício de fixação 2
+# Sabemos que nós, seres humanos, temos domínio para lidar com nomes,
+# como por exemplo (www.betrybe.com), e as máquinas por sua vez trabalham com números.
+# Sabendo disso, qual o nome do serviço usado para converter nomes legíveis
+#  por humanos em endereços IP lidos pelas máquinas?
+RESPOSTA: DNS
+
+# Exercício de fixação 3
+# Cite dois conceitos comumente utilizados em segurança nas redes.
+RESPOSTA: Criptografia e certificados de segurança.
+
+# Exercício de fixação 4
+# Cite recursos que podemos utilizar para minimizar os riscos de ataques.
+RESPOSTA: Senhas fortes, uso de 2FA (two-factor authentication) e configuração 
+de camadas extras de proteção em nossos servidores (firewall).
+
+# Exercício de fixação 5
+# É verdade que os Firewalls são usados apenas para impedir a entrada de tráfegos em uma rede?
+RESPOSTA: Não. Os Firewalls impedem ou permitem tanto a entrada quanto a saída de tráfegos em uma rede.
+
+# Exercício de fixação 6
+# Como funciona o Fail2ban?
+RESPOSTA: Monitorando logs de rede e criando regras no iptables ao detectar comportamentos suspeitos,
+como requisições em massa de um mesmo IP.
+
+# Exercício de fixação 7
+# Agora que você sabe para que serve o Proxy, dê exemplos de seu uso na vida real.
+RESPOSTA: O controle parental é bastante comum quando os pais não desejam que suas crianças acessem determinadas páginas.
+Dentro das empresas também é comum o bloqueio de acesso à redes sociais entre outros casos.
