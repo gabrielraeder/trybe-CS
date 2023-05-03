@@ -39,8 +39,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Seção 5: Estrutura de Dados I: Arrays, Listas, Filas e Pilhas
 
 - [X] 1-1: _Arquitetura de Computadores_
-- [ ] 1-2: _Arquitetura de Reder_
-- [ ] 1-3: _Arrays_
+- [X] 1-2: _Arquitetura de Redes_
+- [X] 1-3: _Arrays_
 - [ ] 1-4: _Nó e Listas Encadeadas_
 - [ ] 1-5: _Pilhas e Filas_
 - [ ] 1-6: _[Projeto - TING - Trybe is not Google]()_
