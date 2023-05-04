@@ -105,30 +105,48 @@ class DoubleLinkedList:
                 value_returned.next = value_to_be_returned.next
         return value_returned
 
+    def index_of(self, value):
+        position = 1
+        start = self.head_value
+        while position <= self.__len__():
+            if start.value == value:
+                return position
+            start = start.next
+            position += 1
+        return -1
+
 
 if __name__ == "__main__":
     lista = DoubleLinkedList()
 
     print("+" * 50)
-    # print(lista.is_empty())
-    lista.insert_first(1)
-    print(lista)
-    print("+" * 50)
-    lista.insert_last(2)
-    lista.insert_last(4)
-    print(lista)
-    print("+" * 50)
-    lista.insert_at(3, 2)
-    print(lista)
-    print("+" * 50)
-    lista.remove_at(2)
-    print(lista)
-    print("+" * 50)
-    print(lista)
-    print(lista.get_element_at(1))
+    # # print(lista.is_empty())
+    # lista.insert_first(1)
+    # print(lista)
+    # print("+" * 50)
+    # lista.insert_last(2)
+    # lista.insert_last(4)
+    # print(lista)
+    # print("+" * 50)
+    # lista.insert_at(3, 2)
+    # print(lista)
+    # print("+" * 50)
+    # lista.remove_at(2)
+    # print(lista)
+    # print("+" * 50)
+    # print(lista)
+    # print(lista.get_element_at(1))
     # lista.remove_first()
     # print(lista)
     # print("+" * 50)
     # lista.remove_last()
     # print(lista)
     # print("+" * 50)
+
+    lista.insert_at(1, 1)
+    lista.insert_at(1, 2)
+    lista.insert_at(3, 3)
+    lista.insert_at(1, 4)
+    print(lista)
+    print("+" * 50)
+    print(lista.index_of(3))
