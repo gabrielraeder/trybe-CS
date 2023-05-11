@@ -1,10 +1,10 @@
-def score(subordinates, person):
-    this_score = 1
+def score_by_person(subordinates, person):
+    score = 1
 
     for subordinate in subordinates[person]:
-        this_score += score(subordinates, subordinate)
+        score += score_by_person(subordinates, subordinate)
 
-    return this_score
+    return score
 
 
 class Hierarchy:
