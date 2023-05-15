@@ -1,6 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
-import pymysql
+
+# import pymysql
 
 database_url = "mysql+pymysql://root:root@127.0.0.1:3306/estudantes"
 

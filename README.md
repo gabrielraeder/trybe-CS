@@ -41,12 +41,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 1-1: _Arquitetura de Computadores_
 - [X] 1-2: _Arquitetura de Redes_
 - [X] 1-3: _Arrays_
-- [ ] 1-4: _Nó e Listas Encadeadas_
-- [ ] 1-5: _Pilhas e Filas_
-- [ ] 1-6: _[Projeto - TING - Trybe is not Google]()_
+- [X] 1-4: _Nó e Listas Encadeadas_
+- [X] 1-5: _Pilhas e Filas_
+- [X] 1-6: _[Projeto - TING - Trybe is not Google]()_
 
 ##### Seção 6: Estrutura de Dados II: Hashmaps e Sets 
 
-- [ ] 1-1: _Hashmap e Dict_
-- [ ] 1-2: _Set_
-- [ ] 1-3: _[Projeto - Restaurant Orders]()_
+- [X] 1-1: _Hashmap e Dict_
+- [X] 1-2: _Set_
+- [X] 1-3: _[Projeto - Restaurant Orders]()_
